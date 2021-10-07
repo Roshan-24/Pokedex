@@ -6,10 +6,10 @@ public class EvolutionChain {
     private NamedAPIResource baby_trigger_item;
     private ChainLink chain;
 
-    public EvolutionChain(int id, NamedAPIResource baby_trigger_item, ChainLink chain) {
+    public EvolutionChain(int id, NamedAPIResource baby_trigger_item, ChainLink c) {
         this.id = id;
         this.baby_trigger_item = baby_trigger_item;
-        this.chain = chain;
+        this.chain = c;
     }
 
     public int getId() {
