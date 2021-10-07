@@ -8,9 +8,9 @@ public class Pokedex {
     private String name;
     private List<PokemonEntry> pokemon_entries;
 
-    public Pokedex(int id, String name, List<PokemonEntry> pokemon_entries) {
+    public Pokedex(int id, String Name, List<PokemonEntry> pokemon_entries) {
         this.id = id;
-        this.name = name;
+        this.name = Name;
         this.pokemon_entries = pokemon_entries;
     }
 
