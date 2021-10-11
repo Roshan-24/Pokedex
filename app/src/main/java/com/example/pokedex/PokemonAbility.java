@@ -1,5 +1,6 @@
 package com.example.pokedex;
 
+//pokemon ability model
 public class PokemonAbility {
 
     private boolean is_hidden;
