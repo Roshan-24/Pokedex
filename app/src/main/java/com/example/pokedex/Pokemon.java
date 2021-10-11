@@ -22,11 +22,11 @@ public class Pokemon {
     private List<PokemonStat> stats;
     private List<PokemonType> types;
 
-    public Pokemon(int id, String name, int base_experience, int height, boolean is_default, int order, int weight, List<PokemonAbility> abilities, List<NamedAPIResource> forms, List<VersionGameIndex> game_indices, List<PokemonHeldItem> held_items, String location_area_encounters, List<PokemonMove> moves, PokemonSprites sprites, NamedAPIResource species, List<PokemonStat> stats, List<PokemonType> types) {
-        this.id = id;
-        this.name = name;
+    public Pokemon(int Id, String Name, int base_experience, int Height, boolean is_default, int order, int weight, List<PokemonAbility> abilities, List<NamedAPIResource> forms, List<VersionGameIndex> game_indices, List<PokemonHeldItem> held_items, String location_area_encounters, List<PokemonMove> moves, PokemonSprites sprites, NamedAPIResource species, List<PokemonStat> stats, List<PokemonType> types) {
+        this.id = Id;
+        this.name = Name;
         this.base_experience = base_experience;
-        this.height = height;
+        this.height = Height;
         this.is_default = is_default;
         this.order = order;
         this.weight = weight;
