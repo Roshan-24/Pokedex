@@ -8,10 +8,10 @@ public class ChainLink {
     private NamedAPIResource species;
     private List<ChainLink> evolves_to;
 
-    public ChainLink(boolean is_baby, NamedAPIResource species, List<ChainLink> evolves_to) {
-        this.is_baby = is_baby;
-        this.species = species;
-        this.evolves_to = evolves_to;
+    public ChainLink(boolean Is_baby, NamedAPIResource Species, List<ChainLink> Evolves_to) {
+        this.is_baby = Is_baby;
+        this.species = Species;
+        this.evolves_to = Evolves_to;
     }
 
     public boolean isIs_baby() {
